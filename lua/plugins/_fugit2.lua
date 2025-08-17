@@ -16,7 +16,9 @@ return {
       opts = {
         mappings = {
           n = {
-            ["<leader>gF"] = { "<Cmd>Fugit2<CR>", desc = "Fugit2" },
+            ["<leader>gf"] = { "<Cmd>Fugit2<CR>", desc = "Fugit2" },
+            ["<leader>gB"] = { "<Cmd>Fugit2Blame<CR>", desc = "Fugit2Blame" },
+            ["<leader>gg"] = { "<Cmd>Fugit2Graph<CR>", desc = "Fugit2Graph" },
           },
         },
       },
