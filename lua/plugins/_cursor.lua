@@ -22,8 +22,8 @@ return {
       vim.opt.cursorcolumn = true
 
       -- Configuração de destaque para a linha e coluna
-      vim.api.nvim_set_hl(0, "CursorLine", { bg = "#3e4452" }) -- Cor de fundo para a linha
-      vim.api.nvim_set_hl(0, "CursorColumn", { bg = "#3e4452" }) -- Cor de fundo para a coluna
+      vim.api.nvim_set_hl(0, "CursorLine", { bg = "#303030" }) -- Cor de fundo para a linha
+      vim.api.nvim_set_hl(0, "CursorColumn", { bg = "#303030" }) -- Cor de fundo para a coluna
     end,
   },
 }

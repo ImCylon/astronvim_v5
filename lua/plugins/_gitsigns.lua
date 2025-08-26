@@ -73,7 +73,7 @@ return {
           -- map("v", "<leader>hr", function() gitsigns.reset_hunk { vim.fn.line ".", vim.fn.line "v" } end)
 
           -- map("n", "<leader>hS", gitsigns.stage_buffer)
-          -- map("n", "<leader>hR", gitsigns.reset_buffer)
+          map("n", "<leader>hR", gitsigns.reset_buffer)
           map("n", "<leader>hp", gitsigns.preview_hunk) -- hunk preview
           -- map("v", "<leader>ph", function() -- visual mode hunk preview
           --   gitsigns.preview_hunk { vim.fn.line ".", vim.fn.line "v" }
